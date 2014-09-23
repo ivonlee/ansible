@@ -13,3 +13,6 @@ IP:PORT/getgroup （或者ansible host文件中组信息）
 
 直接get即可
 
+
+
+log_plays_inmongodb.py 是一个ansible callback插件，将ansible运行结果写入到mongodb
