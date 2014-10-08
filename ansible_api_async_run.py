@@ -174,10 +174,8 @@ class AsyncTaskHandler(tornado.web.RequestHandler):
                   results = results.get('contacted')
                   if results:
                      for result in results.items():
-                       print 'okokoko'
                        jobinfo = {}
                        data = result[1]
-                       print '111111111111'
                        print data
                        inventory = result[0]
                        jobinfo['inventory']=inventory
