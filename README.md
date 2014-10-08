@@ -19,3 +19,8 @@ log_plays_inmongodb.py 是一个ansible callback插件，将ansible运行结果�
 
 
 ansible_api_async_run.py 增加ansible异步执行功能
+
+
+模拟数据
+
+{"type":"command","cmd":"ping -c 15 www.baidu.com","host":"gmop-fs-3top7-3-*","sign":"2eb7e6e94dd8fd1652693308919fd7cf","sudo":"True"}
