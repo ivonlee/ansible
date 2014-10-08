@@ -16,3 +16,6 @@ IP:PORT/getgroup （或者ansible host文件中组信息）
 
 
 log_plays_inmongodb.py 是一个ansible callback插件，将ansible运行结果写入到mongodb
+
+
+ansible_api_async_run.py 增加ansible异步执行功能
